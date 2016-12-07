@@ -21,4 +21,10 @@ def detect_signal():
         return True
     return False
 
+def send_message(signal):
+    if(signal):
+        print("ERROR SIGNAL PICKED UP")
+    else:
+        print("SUCCESS")
+
 main()

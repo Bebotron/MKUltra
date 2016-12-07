@@ -1,6 +1,8 @@
 import io
 
 def main():
-    print("Hello World!")
+    inp = raw_input("Enter input: ")
+    if(inp != ""):
+        print("SOY GAY!")
 
 main()
